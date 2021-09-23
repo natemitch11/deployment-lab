@@ -13,7 +13,6 @@ header {
     height: 300px;
     background-image: url("https://media.dnd.wizards.com/styles/story_banner/public/images/head-banner/G30FYHMw8D_0.jpg");
 }
-
 .header {
     display: flex;
     align-items: center;
@@ -21,12 +20,10 @@ header {
     font-family: sans-serif;
     color: white;
 }
-
 #header-title {
     margin-left: 75px;
     background-color: transparent;
 }
-
 .character-container {
     display: flex;
     height: 375px;
@@ -35,13 +32,11 @@ header {
     margin-left: 20px;
     width: 66%;
 }
-.lenora-img {
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/352/366/359/artwork-fantasy-art-sword-blonde-wallpaper-thumb.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 34%
+.right-text {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 66%;
 }
-
 .name{
     margin-top: 50px;
 }
@@ -49,19 +44,27 @@ header {
     margin-top: 10px;
     margin-right: 10px;
 }
+.lenora-img {
+    background-image: url("./imgs/Lenora_Thumbnail");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 34%
+}
 .dillion-img {
     width:34%;
     background-image: url("./imgs/Dillion_Thumbnail.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-.right-text {
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 66%;
-}
+
 .talathor-img {
-    background-image: url("./imgs/Talathor_thumbnail.jpg");
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/758/1014/549/elf-prince-art-fantasy-luminos-wallpaper-preview.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 34%
+}
+.sirmos-img {
+    background-image: url("https://i.pinimg.com/originals/08/6a/24/086a249c1988e060c6652f85bf24af0e.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 34%
