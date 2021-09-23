@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
+    background-color: rgb(201, 207, 231)
+}
+
+li{
+    list-style-type: none;
 }
 
 header {
@@ -19,4 +24,41 @@ header {
 
 #header-title {
     margin-left: 75px;
+    background-color: transparent;
+}
+
+.lenora-shane-container {
+    display: flex;
+    height: 375px;
+}
+.lenora-text {
+    margin-left: 20px;
+    width: 66%;
+}
+.lenora-img {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/352/366/359/artwork-fantasy-art-sword-blonde-wallpaper-thumb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 34%
+}
+.lenora-shane{
+    margin-top: 50px;
+}
+.lenora-bio {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.dillion-container{
+    display: flex;
+    height: 375px;
+}
+.dillion-img {
+    width:34%;
+    background-image: url("./imgs/Dillion_Thumbnail.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.dillion-text {
+    margin-left: 20px;
+    margin-top: 20px;
 }
