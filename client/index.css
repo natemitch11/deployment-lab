@@ -69,3 +69,9 @@ header {
     background-repeat: no-repeat;
     width: 34%
 }
+.kai-img{
+    background-image: url("https://64.media.tumblr.com/ae0a5e8c839df125ee071915dac078ce/tumblr_psn0xbKVM41s3hp12o1_400.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 34% 
+}
