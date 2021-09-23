@@ -2,7 +2,10 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
-    background-color: rgb(201, 207, 231)
+    
+}
+body{
+    background:linear-gradient(90deg, rgb(194, 192, 192), rgb(195, 195, 202))
 }
 
 li{
@@ -26,7 +29,7 @@ header {
 }
 .character-container {
     display: flex;
-    height: 375px;
+    height: 400px;
 }
 .left-text {
     margin-left: 20px;
@@ -48,30 +51,48 @@ header {
     background-image: url("./imgs/Lenora_Thumbnail");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 34%
+    width: 34%;
+    border-radius: 20px;
+    box-shadow: gray 3px 3px 3px;
+    margin-right: 5px;
 }
 .dillion-img {
     width:34%;
     background-image: url("./imgs/Dillion_Thumbnail.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: gray 3px 3px 3px;
+    margin-left: 5px;
 }
 
 .talathor-img {
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/758/1014/549/elf-prince-art-fantasy-luminos-wallpaper-preview.jpg");
+    background-image: url("./imgs/Talathor_thumbnail");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 34%
+    width: 34%;
+    border-radius: 20px;
+    box-shadow: gray 3px 3px 3px;
+    margin-right: 5px;
 }
 .sirmos-img {
     background-image: url("https://i.pinimg.com/originals/08/6a/24/086a249c1988e060c6652f85bf24af0e.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 34%
+    width: 34%;
+    border-radius: 20px;
+    box-shadow: gray 3px 3px 3px;
+    margin-left: 5px;
 }
 .kai-img{
     background-image: url("https://64.media.tumblr.com/ae0a5e8c839df125ee071915dac078ce/tumblr_psn0xbKVM41s3hp12o1_400.png");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 34% 
+    width: 34%;
+    border-radius: 20px;
+    box-shadow: gray 3px 3px 3px; 
+    margin-right: 5px;
+}
+.footer{
+    height: 20px;
 }
