@@ -27,11 +27,11 @@ header {
     background-color: transparent;
 }
 
-.lenora-shane-container {
+.character-container {
     display: flex;
     height: 375px;
 }
-.lenora-text {
+.left-text {
     margin-left: 20px;
     width: 66%;
 }
@@ -41,16 +41,13 @@ header {
     background-repeat: no-repeat;
     width: 34%
 }
-.lenora-shane{
+
+.name{
     margin-top: 50px;
 }
-.lenora-bio {
+.bio {
     margin-top: 10px;
     margin-right: 10px;
-}
-.dillion-container{
-    display: flex;
-    height: 375px;
 }
 .dillion-img {
     width:34%;
@@ -58,7 +55,14 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.dillion-text {
+.right-text {
     margin-left: 20px;
     margin-top: 20px;
+    width: 66%;
+}
+.talathor-img {
+    background-image: url("./imgs/Talathor_thumbnail.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 34%
 }
